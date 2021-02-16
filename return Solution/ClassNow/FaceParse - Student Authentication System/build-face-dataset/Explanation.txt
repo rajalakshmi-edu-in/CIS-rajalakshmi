@@ -1,0 +1,5 @@
+What this module does is basically capture facial image and store it in a folder. Nothing big, just like taking a picture.
+
+Why do we need this?
+
+Because in order for the system to detect whose face it is, it needs a lot of data in order to be able to train itself. So this collects the data.
