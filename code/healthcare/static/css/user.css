@@ -1,0 +1,36 @@
+.signup-container {
+  background-color: rgb(126, 201, 231);
+  padding: 2em;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form > input,
+.signup-form > select {
+  margin: 1em auto auto auto;
+}
+
+.signup-container > h1 {
+  text-align: center;
+}
+
+.login-container {
+  background-color: rgb(142, 173, 214);
+  display: flex;
+  flex-direction: column;
+  width: 40em;
+  margin: 10em auto auto auto;
+  padding: 1em;
+}
+
+.login-container > input {
+  width: 24em;
+  margin: 1em auto auto auto;
+}
+
+.login-container > h2 {
+  text-align: center;
+}

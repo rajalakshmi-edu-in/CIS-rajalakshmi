@@ -1,0 +1,15 @@
+{% extends "./base.html" %} {% block bodyblock %}
+<div class="signup-container">
+  <h1>Doctor SignUp Form</h1>
+  <form class="signup-form" method="post">
+    {% csrf_token %}
+    <input type="text" name="name" placeholder="Name" />
+    <input type="email" name="email" placeholder="Email" />
+    <input type="number" name="phone" placeholder="Phone" />
+    <input type="text" name="hospital" placeholder="Hospital" />
+    <input type="password" name="password1" placeholder="Password" />
+    <input type="password" name="password2" placeholder="Confirm Password" />
+    <input type="submit" />
+  </form>
+</div>
+{% endblock %}

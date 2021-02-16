@@ -1,0 +1,19 @@
+#header-title {
+  color: rgb(0, 0, 0);
+}
+
+#tagline {
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  padding: 2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-image: url("../images/doteintback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

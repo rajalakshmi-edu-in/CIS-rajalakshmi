@@ -1,0 +1,24 @@
+{% extends "./base.html" %} {% block bodyblock %} {% if error %}
+<h2>{{ error }}</h2>
+{% else %}
+<div class="profile-container">
+  <h1>Name : {{ doctor.name }}</h1>
+  <p>Mobile : {{ doctor.phone }}</p>
+  <p>Email Id: {{ doctor.email }}</p>
+  <p>Hospital: {{ doctor.doctor.hospital }}</p>
+  <p>Specialized at</p>
+  {% for typ in doctor.doctor.type.all %}
+  <p>{{ typ.type }}</p>
+  {% endfor %}
+</div>
+
+<form
+  class="appointment-textbox"
+  action="/appointment/create/{{ doctor.id }}"
+  method="post"
+>
+  {% csrf_token %}
+  <textarea name="desc" rows="8" cols="80"></textarea>
+  <input type="submit" value="Ask for Appointment" />
+</form>
+{% endif %} {% endblock %}

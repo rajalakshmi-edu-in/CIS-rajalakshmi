@@ -1,0 +1,15 @@
+{% extends "./base.html" %}
+  {% block bodyblock %}
+    <table>
+        <tr>
+          <th>Question</th>
+          <th>View</th>
+        </tr>
+        {% for question in questions.all %}
+          <tr>
+            <td>{{ question.question_name }}</td>
+            <td><a href="/forum/questiondetail/{{question.id}}">View</a></td>
+          </tr>
+        {% endfor %}
+      </table>
+  {% endblock %}
