@@ -1,0 +1,30 @@
+Step 1: Install Python
+Step 2: Run the following pip commands.
+
+pip install opencv-contrib-python
+pip install imutils
+pip install scikit-learn
+pip install numpy
+
+Step 3: Navigate to the build-custom-dataset folder and create a folder with your name.
+
+Step 4: Navigate to the build-custom-dataset folder in cmd and run the following command. Replace myname with the folder name in the previous step.
+
+python build_face_dataset.py --cascade haarcascade_frontalface_default.xml \ --output dataset/myname
+
+Step 4: Once the camera is started and the face is detected. Press K every second for 150 times to save 150 images of your face.
+
+Step 5: Copy the folder with the dataset that has been created into the opencv-face-recognition/dataset directory.
+
+Step 6: Navigate into opencv-face-recognition in CMD and run the following commands.
+
+python extract_embeddings.py --dataset dataset --embeddings output/embeddings.pickle --detector face_detection_model --embedding-model openface_nn4.small2.v1.t7
+
+python train_model.py --embeddings output/embeddings.pickle --recognizer output/recognizer.pickle --le output/le.pickle
+
+
+python recognize_video.py --detector face_detection_model --embedding-model openface_nn4.small2.v1.t7 --recognizer output/recognizer.pickle --le output/le.pickle
+
+Check if it works. And if it does, upload the dataset with your face into the same drive.
+
+All the bestttt!

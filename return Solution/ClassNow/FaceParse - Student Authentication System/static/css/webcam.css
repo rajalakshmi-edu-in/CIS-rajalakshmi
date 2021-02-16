@@ -1,0 +1,50 @@
+body{
+	background-color: #cc5577;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23cc5577' width='11' height='11'/%3E%3Crect fill='%23cd5a78' x='10' width='11' height='11'/%3E%3Crect fill='%23cd5e7a' y='10' width='11' height='11'/%3E%3Crect fill='%23ce637b' x='20' width='11' height='11'/%3E%3Crect fill='%23ce677d' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23cf6b7e' y='20' width='11' height='11'/%3E%3Crect fill='%23d06f80' x='30' width='11' height='11'/%3E%3Crect fill='%23d07281' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23d17682' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23d27a84' y='30' width='11' height='11'/%3E%3Crect fill='%23d27d85' x='40' width='11' height='11'/%3E%3Crect fill='%23d38086' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23d38388' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23d48789' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23d58a8a' y='40' width='11' height='11'/%3E%3Crect fill='%23d58d8b' x='50' width='11' height='11'/%3E%3Crect fill='%23d6908d' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23d6938e' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23d7958f' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23d89890' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23d89b92' y='50' width='11' height='11'/%3E%3Crect fill='%23d99e93' x='60' width='11' height='11'/%3E%3Crect fill='%23d9a094' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23daa395' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23daa596' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23dba898' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23dcaa99' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23dcad9a' x='70' width='11' height='11'/%3E%3Crect fill='%23ddaf9b' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23ddb29c' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23deb49d' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23dfb69e' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23dfb8a0' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23e0bba1' x='80' width='11' height='11'/%3E%3Crect fill='%23e0bda2' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23e1bfa3' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23e1c1a4' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23e2c3a5' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23e2c6a6' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23e3c8a7' x='90' width='11' height='11'/%3E%3Crect fill='%23e4caa8' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23e4cca9' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23e5ceaa' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23e5d0ab' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23e6d2ac' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23e6d4ad' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23e7d6ae' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23e7d8af' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23e8dab0' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23e9dcb1' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23e9deb2' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23eadfb3' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23eae1b4' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23ebe3b5' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23ebe5b6' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23ece7b7' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23ece9b8' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23edeab9' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23edecba' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEB' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.live{
+	text-align: center;
+	color: yellow;
+	font-family:"Source+Serif+Pro";
+	margin-top:3.5rem;
+	text-decoration: underline;
+	text-underline-position: under;
+	text-decoration-color: white;
+}
+
+#video{
+	display:flex;
+	margin:0 auto;
+
+}
+
+.navbar #header{
+	color: white;
+	font-size: 1.4rem;
+	font-family:"Righteous";
+}
+
+.navbar #header:hover{
+	color: magenta;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+	font-size:15px;
+	color: white;
+	padding-right: 15px;
+	letter-spacing: 2px;
+}
+
+.navbar .navbar-toggler{
+	background-color:#f8f9fa;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+	color:white;
+}
+.navbar{
+	padding:0;
+	margin:0;
+}

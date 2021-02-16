@@ -1,0 +1,9 @@
+This is the main module. As you can see there are three major files.
+
+i)extract_embeddings.py
+ii)train_model.py
+iii)recognize.py
+
+i) What this basically does is, there are all the datasets labelled and stored in the dataset folder. This extracts the important facial data from the files.
+ii) The data that has been extracted is then trained into the neural network so that the computer knows whos who.
+iii)This file is to basically look via the camera and see if the face matches anything.

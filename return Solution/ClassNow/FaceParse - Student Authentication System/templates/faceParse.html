@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FACEPARSE</title>
+	<link href="https://fonts.googleapis.com/css?family=Righteous|Source+Serif+Pro|Alata|EB+Garamond|Ibarra+Real+Nova|Roboto+Condensed&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/faceParse.css') }}" />
+</head>
+<body>
+	<nav class="navbar">
+		<a class="navbar-brand" href="faceParse.html">F A C E P A R S E</a>
+	</nav>
+	<div class="welcome display-1">Welcome</div>
+	<div class="container">
+		<div class="buttons">
+			<a type="button" class="btn btn-outline-dark mr-3 btn-lg" href="/userData">USER DATA</a>
+		</div>
+		<div class="buttons">
+			<a type="button" class="btn btn-outline-dark mr-3 btn-lg" href="/userLog">USER LOG</a>
+		</div>
+		<div class="buttons">
+			<a type="button" class="btn btn-outline-dark mr-3 btn-lg" href="/AConsole">AUTHORIZATION <br>CONTROL</a>
+		</div>
+	</div>
+
+	<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+	<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
+	<script type='text/javascript' src='dynamicpage.js'></script>
+
+</body>
+</html>
