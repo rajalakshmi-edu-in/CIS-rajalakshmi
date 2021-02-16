@@ -1,0 +1,15 @@
+{% extends "./base.html" %}
+  {% block bodyblock %}
+    {% if error %}
+      <h1>{{error}}</h1>
+    {% else %}
+      <h1>{{ question }}</h1>
+      {% if question.answers %}
+        <h2>Answers</h2>
+        {% for answer in question.answers.all %}
+          <h3>{{ answer.answer }}</h3>
+          <p>{{ answer.answered_by }}</p>
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+  {% endblock %}

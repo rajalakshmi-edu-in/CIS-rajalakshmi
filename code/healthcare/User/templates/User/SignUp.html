@@ -1,0 +1,25 @@
+{% extends "./base.html" %} {% block bodyblock %}
+<div class="signup-container">
+  <h1>User Signup</h1>
+  <form class="signup-form" method="post">
+    {% csrf_token %}
+    <input type="text" name="name" placeholder="Name" />
+    <input type="email" name="email" placeholder="Email" />
+    <input type="number" name="phone" placeholder="Phone" />
+    <select name="bg">
+      <option value="O+">O+</option>
+      <option value="O-">O-</option>
+      <option value="A+">A+</option>
+      <option value="A-">A-</option>
+      <option value="B+">B+</option>
+      <option value="B-">B-</option>
+      <option value="AB+">AB+</option>
+      <option value="AB-">AB-</option>
+    </select>
+    <input type="password" name="password1" placeholder="Password" />
+    <input type="password" name="password2" placeholder="Confirm Password" />
+    <input type="submit" />
+  </form>
+</div>
+
+{% endblock %}

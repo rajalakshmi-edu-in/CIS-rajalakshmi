@@ -1,0 +1,22 @@
+{% extends "./base.html" %}
+  {% block bodyblock %}
+    {% for appointment in appointments %}
+      <h2>from {{ appointment.patient }} to {{ appointment.doctor }}</h2>
+      <form method="post" action="/appointment/confirmed/{{ appointment.id }}">
+        {% csrf_token %}
+        <input type="date" name="date" placeholder="Date">
+        <input type="time" name="time" placeholder="Time">
+        <input type="submit" value="confirm">
+      </form>
+    {% endfor %}
+
+      <h2>Already Confirmed Appointments</h2>
+      {% for appointment in confirmed %}
+        <h3>from {{ appointment.patient }} to {{ appointment.doctor }}</h3>
+        <form action="/appointment/markcomplete/{{ appointment.id }}" method="post">
+          {% csrf_token %}
+          <input type="submit" value="Mark Complete">
+        </form>
+      {% endfor %}
+
+  {% endblock %}

@@ -1,0 +1,16 @@
+{% extends "./base.html" %}
+  {% block bodyblock %}
+    {% if error %}
+      <h3>{{ error }}</h3>
+    {% else %}
+      <form method="post">
+        {% csrf_token %}
+        <label for="ques">Enter your Question</label>
+        <textarea name="ques" rows="8" cols="80"></textarea>
+        <input type="submit" value="Post">
+      </form>
+      {% if success %}
+        <h3>{{ success }}</h3>
+      {% endif %}
+    {% endif %}
+  {% endblock %}

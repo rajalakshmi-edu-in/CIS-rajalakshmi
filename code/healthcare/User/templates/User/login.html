@@ -1,0 +1,15 @@
+{% extends "./base.html" %} {% block bodyblock %} {% if user.is_authenticated %}
+<h1>Already Logged in</h1>
+<p>Do you want to logout ?</p>
+<a href="{% url 'User:logout' %}"><button type="button">Log Out</button></a>
+{% else %}
+<form class="login-container" method="post">
+  <h2>User Login</h2>
+  {% csrf_token %}
+  <input type="email" name="email" placeholder="Email" />
+  <input type="password" name="password" placeholder="password" />
+  <input type="submit" value="Log In" />
+</form>
+{% if error %}
+<h4>{{ error }}</h4>
+{% endif %} {% endif %} {% endblock %}
