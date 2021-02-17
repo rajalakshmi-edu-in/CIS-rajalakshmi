@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1017534229356",
+    "firebase_url": "https://doctorboi.firebaseio.com",
+    "project_id": "doctorboi",
+    "storage_bucket": "doctorboi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017534229356:android:374ea9c1e77b4d1bf76149",
+        "android_client_info": {
+          "package_name": "com.example.doctorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017534229356-d73julcl0dbusdu656089ol4lui5hako.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVbrptvQ_YaOEkFVEKE4L9gFyjbXB_bUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017534229356-d73julcl0dbusdu656089ol4lui5hako.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
