@@ -1,0 +1,446 @@
+.mediaViewInfo {
+	--web-view-name: landing page;
+	--web-view-id: landing_page;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: landing_page;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#landing_page {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(15,15,15,1);
+	overflow: hidden;
+	--web-view-name: landing page;
+	--web-view-id: landing_page;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_1 {
+	opacity: 0.62;
+	fill: rgba(51,53,51,1);
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 99px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_7 {
+	opacity: 0.62;
+	fill: rgba(51,53,51,1);
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 99px;
+	left: 0px;
+	top: 981px;
+}
+#Rectangle_3 {
+	fill: rgba(245,203,92,1);
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 266px;
+	height: 52px;
+	left: 1379px;
+	top: 24px;
+}
+#Rectangle_8 {
+	fill: rgba(245,203,92,1);
+}
+.Rectangle_8 {
+	position: absolute;
+	overflow: visible;
+	width: 293px;
+	height: 55px;
+	left: 814px;
+	top: 668px;
+}
+#JOIN_US_FOR_FREE {
+	left: 1408px;
+	top: 36px;
+	position: absolute;
+	overflow: visible;
+	width: 210px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(36,36,35,1);
+}
+#GET_STARTED {
+	left: 865px;
+	top: 678px;
+	position: absolute;
+	overflow: visible;
+	width: 193px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(36,36,35,1);
+}
+#ABOUT {
+	left: 1018px;
+	top: 38px;
+	position: absolute;
+	overflow: visible;
+	width: 66px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(232,237,223,1);
+}
+#Privacy {
+	left: 275px;
+	top: 1020px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(207,219,213,1);
+}
+#Security {
+	left: 451px;
+	top: 1020px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(207,219,213,1);
+}
+#Terms_of_use {
+	left: 634px;
+	top: 1020px;
+	position: absolute;
+	overflow: visible;
+	width: 110px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(207,219,213,1);
+}
+#techyinshortsin {
+	left: 1511px;
+	top: 1019px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(207,219,213,1);
+}
+#FEATURES {
+	left: 1182px;
+	top: 38px;
+	position: absolute;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(232,237,223,1);
+}
+#Stay_up-__o-date_with {
+	left: 648px;
+	top: 388px;
+	position: absolute;
+	overflow: visible;
+	width: 625px;
+	white-space: nowrap;
+	line-height: 140px;
+	margin-top: -40px;
+	text-align: center;
+	font-family: Square721 BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(232,237,223,1);
+}
+#Rectangle_4 {
+	opacity: 0.5;
+	fill: transparent;
+	stroke: rgba(232,237,223,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 570px;
+	height: 115px;
+	left: 675px;
+	top: 503px;
+}
+#Rectangle_5 {
+	fill: rgba(15,15,15,1);
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	height: 56px;
+	left: 1207px;
+	top: 584px;
+}
+#Icon_awesome-plus {
+	fill: rgba(207,219,213,1);
+}
+.Icon_awesome-plus {
+	overflow: visible;
+	position: absolute;
+	width: 38.76px;
+	height: 38.738px;
+	left: 1220px;
+	top: 593px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-lightbulb {
+	fill: rgba(232,237,223,1);
+}
+.Icon_awesome-lightbulb {
+	overflow: visible;
+	position: absolute;
+	width: 26.949px;
+	height: 61.807px;
+	left: 906px;
+	top: 388px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(97,97,97,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 24px;
+	left: 393.5px;
+	top: 1020.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(97,97,97,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 24px;
+	left: 576.5px;
+	top: 1020.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_material-copyright {
+	fill: rgba(207,219,213,1);
+}
+.Icon_material-copyright {
+	overflow: visible;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 1475px;
+	top: 1017px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Write_a_blogpost {
+	opacity: 0.8;
+	left: 266px;
+	top: 304px;
+	position: absolute;
+	overflow: visible;
+	width: 181px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(177,147,69,1);
+}
+#Learn_about_new_technology {
+	opacity: 0.8;
+	left: 993px;
+	top: 213px;
+	position: absolute;
+	overflow: visible;
+	width: 312px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(177,147,69,1);
+}
+#Engage_with_nerds {
+	opacity: 0.8;
+	left: 614px;
+	top: 213px;
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(177,147,69,1);
+}
+#Share_your_experience {
+	opacity: 0.8;
+	left: 1412px;
+	top: 304px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(177,147,69,1);
+}
+#An_open_community_to_showcase_ {
+	left: 567px;
+	top: 873px;
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Square721 BT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#MODERN_TECH {
+	left: 735px;
+	top: 525px;
+	position: absolute;
+	overflow: visible;
+	width: 451px;
+	white-space: nowrap;
+	line-height: 140px;
+	margin-top: -40px;
+	text-align: center;
+	font-family: Swis721 BT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(245,203,92,1);
+}
+#Group_2 {
+	position: absolute;
+	width: 135px;
+	height: 79px;
+	left: 281px;
+	top: 12px;
+	overflow: visible;
+}
+#TECHY {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 44px;
+	color: rgba(232,237,223,1);
+}
+#in {
+	left: 102px;
+	top: 43px;
+	position: absolute;
+	overflow: visible;
+	width: 34px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: NewsGoth BT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,193,29,1);
+}
+#inshorts {
+	left: 3px;
+	top: 39px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gadugi;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 29px;
+	color: rgba(232,237,223,1);
+	letter-spacing: -0.3px;
+}
